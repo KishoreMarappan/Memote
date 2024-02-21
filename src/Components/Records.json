@@ -1,0 +1,92 @@
+[
+    {
+        "_id":"User_171",
+        "UserName":"Maayavi",
+        "Likes": 98,
+        "DisLikes" :0,
+        "image":"./memes/image1.png",
+        "Reports":3
+    },
+    {
+        "_id":"User_141",
+        "UserName":"Uncle",
+        "Likes": 98,
+        "DisLikes" :0,
+        "image":"./memes/image2.jpeg",
+        "Reports":3
+    },
+    {
+        "_id":"User_402",
+        "UserName":"Bhailwan",
+        "Likes": 118,
+        "DisLikes" :0,
+        "image":"./memes/image3.jpg",
+        "Reports":6
+    },
+    {
+        "_id":"User_123",
+        "UserName":"Jackie Chan",
+        "Likes": 167,
+        "DisLikes" :0,
+        "image":"./memes/image4.jpg",
+        "Reports":0
+    },
+    {
+        "_id":"User_194",
+        "UserName":"Sankar",
+        "Likes": 19,
+        "DisLikes" :0,
+        "image":"./memes/image5.jpg",
+        "Reports":0
+    },
+    {
+        "_id":"User_325",
+        "UserName":"Rajappan",
+        "Likes": 46,
+        "DisLikes" :0,
+        "image":"./memes/image6.jpeg",
+        "Reports":1
+    },
+    {
+        "_id":"User_206",
+        "UserName":"Sekar",
+        "Likes": 78,
+        "DisLikes" :0,
+        "image":"./memes/image7.jpg",
+        "Reports":34
+    },
+    {
+        "_id":"User_187",
+        "UserName":"Shindu",
+        "Likes": 100,
+        "DisLikes" :0,
+        "image":"./memes/image8.jpeg",
+        "Reports":3
+    },
+    {
+        "_id":"User_167",
+        "UserName":"Bheema",
+        "Likes": 23,
+        "DisLikes" :0,
+        "image":"./memes/image9.jpeg",
+        "Reports":0
+    },
+    {
+        "_id":"User_154",
+        "UserName":"Captain Black",
+        "Likes": 67,
+        "DisLikes" :1,
+        "image":"./memes/image10.jpeg",
+        "Reports":2
+    },
+    {
+        "_id":"User_330",
+        "UserName":"Julie",
+        "Likes": 120,
+        "DisLikes" :0,
+        "image":"./memes/image10.jpeg",
+        "Reports":11
+    }
+
+
+]

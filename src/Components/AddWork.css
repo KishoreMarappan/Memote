@@ -1,0 +1,112 @@
+.Addwork{
+  background-image: url(last.png);
+  background-repeat: no-repeat; /* background-color:rgb(167, 165, 165); */
+  padding-bottom: 131px;
+  background-size: cover;
+}
+/* .Addwork img{
+  margin-left: 20px;
+} */
+.Adder {
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  height: 600px;
+  padding: 20px;
+  background-color: #e2f3f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+  border-radius: 8px;
+  margin-left: 470px;
+}
+Input[type='file']{
+  font-size: large;
+  background-color: rgb(245, 255, 255);
+}
+
+#fh3{
+  
+  text-align: center;
+  margin-bottom: 10px;
+} 
+
+#fh4{
+  font-style: oblique;
+  color: #382c2ce7;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #1d1818;
+}
+
+#caption,#memeFile {
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  font-style: oblique;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(13, 4, 4);
+}
+#ul li{
+  font-style: oblique;
+  line-height: 1.6;
+  color: black;
+  font-weight: 400;
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+.img-subbmit {
+  background-color: #9fa79f;
+  color: white;
+  font-size: larger;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 250px;
+} 
+
+.img-subbmit:hover {
+  background-color: #45a049;
+  transform:scale(1.08);
+}
+.guide{
+  margin-top: 10px;
+  line-height: 2.1;
+  font-style: oblique;
+  font-size: larger;
+  
+}
+
+p {
+  font-style: oblique;
+  color: black;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+a {
+  color: #1e87f0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 

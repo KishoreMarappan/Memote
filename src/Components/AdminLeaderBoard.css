@@ -1,0 +1,65 @@
+.overAllAdmin{
+    background-image: url(cyber.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hrtaga{
+    position: relative;
+    left: 30px;
+    width: 452px;
+    top: 10px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .table1a {
+      opacity: 0.8;
+      background-color: rgba(216, 41, 41, 0.253);
+      position: relative;
+      border-collapse:collapse;
+      left: 30px;
+      width: 96%;
+      color: white;
+      top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .headya{
+      font-style: oblique;
+      position: relative;
+      font-size: 28px;
+      color: rgb(255, 255, 255);
+      left: 30px;
+      top: 12px;
+    }
+    
+    th, td {
+      border: 1px solid #200909;
+      padding: 16px;
+      text-align:center;
+    }
+    .home-goto{
+      position: relative;
+      height: 40px;
+      font-size: larger;
+      left: 75%;
+      top: 30px;
+      border-radius: 16px;
+      width: 90px;
+    }
+    .home-goto:hover{
+      background-color: red;
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 2px 2px  rgb(20, 1, 1);
+    }
+    th {
+      color: aliceblue;
+      background-color: #487ac1;
+    }
+    
+    tr:hover {
+      background-color: #a8dfe7;
+      transform: scaleY(1.1);
+      color: #10438a;
+  }

@@ -1,0 +1,78 @@
+.overAl{
+    /* background:linear-gradient(rgb(224, 82, 82),rgb(186, 167, 167),rgb(73, 28, 28),rgb(101, 101, 144),rgb(224, 99, 82)); */
+    height: 100vh;
+    background-image: url(iihoo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hrtag1{
+  position: relative;
+  left: 30px;
+  width: 400px;
+  
+  top: 10px;
+  border: 2px solid rgb(103, 93, 113);
+}
+.table1-content {
+    color: rgb(204, 204, 204);
+    position: relative;
+    border-collapse:collapse;
+    left: 30px;
+    font-weight: bold;
+    width: 96%;
+    top: 20px;
+  }
+  .heads{
+    font-style: oblique;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    left: 30px;
+    top: 12px;
+  }
+  
+  th, td {
+    border: 1px solid #200909;
+    padding: 16px;
+    border-color: white;
+    text-align:center;
+  }
+  .home-goto{
+    position: relative;
+    height: 40px;
+    font-size: larger;
+    left: 85%;
+    top: 30px;
+    border-radius: 16px;
+    width: 90px;
+  }
+  .home-goto:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 2px 2px  rgb(20, 1, 1);
+  }
+  th {
+    color: aliceblue;
+    background-color: #10438a;
+  }
+  
+  tr:hover {
+    background-color: #da0000;
+    transform: scaleY(1.09);
+    color: #10438a;
+}
+.delete-contnt{
+    /* position: relative; */
+    height: 35px;
+    font-size: larger;
+    width: 80px;
+    border-radius: 12px;
+}
+.delete-contnt:hover{
+    transform: scale3d(1.8);
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

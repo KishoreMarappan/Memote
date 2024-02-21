@@ -1,0 +1,246 @@
+.Admin-contents{
+    position: relative;
+    background-image: url(set-topicbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.set12{
+    color: white;
+    position: relative;
+    top: 140px;
+    border: 2px solid rgb(255, 234, 234);
+    height: 450px;
+    width: 600px;
+    border-radius: 17px;
+    box-shadow: 2px 2px 3px white;
+    left: 600px;
+}
+.topic_head{
+    font-style: oblique;
+    padding-top: 45px;
+    font-size: 26px;
+    margin-left: 20px;
+    
+}
+#set-tp{
+    position: relative;
+    left: 90px;
+    top: 30px;
+    bottom: 20px
+}
+#set-tp::placeholder{
+    font-size: 17px;
+}
+.setter-btn{
+    background-color: rgb(167, 165, 165);
+    font-style: oblique;
+    cursor: pointer;
+    left: 115px;
+    top: 32px;
+    font-size: 22px;
+    width: 85px;
+    border-radius: 11px;
+    height:37px;
+    position: relative;
+}
+#a-para{
+    position: relative;
+    font-size: 23px;
+    top: 50px;
+    left: 20px;
+    color: white;
+}
+#naviphoto1{
+    position: relative;
+    font-size: 35px;
+    top: 77px;
+    left: 125px;
+}
+#naviphoto2{
+    position: relative;
+    font-size: 35px;
+    top: 180px;
+    right: 260px;
+}
+.user-manageh {
+    font-style: oblique;
+    position: relative;
+    top: 70px;
+    cursor: pointer;
+    left: 135px;  
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgb(182, 177, 177);
+    border-radius: 9px;
+}
+.user-manageh:hover{
+    background-color: red;
+    color: white;
+}
+.content-manageh{
+    position: relative;
+    font-style: oblique;
+    top: 130px;
+    left: 173px;
+    width: 350px;
+    cursor: pointer;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 9px;
+    background-color: rgb(181, 179, 179);
+}
+.content-manageh:hover,.setter-btn:hover{
+    background-color: rgb(231, 55, 46);
+    color: white;
+    box-shadow: 0 2px 4px 0 rgb(82, 72, 72);
+}
+.h-headtag{
+    padding-top: 6px;
+    font-style:oblique;
+    font-size: x-large;
+    
+}
+
+.search ::placeholder{
+    color: white;
+    font-style:oblique;
+    font-size: large;
+    padding-left: 8px;
+    
+}
+.searcher{
+    padding-left: 17px;
+    background-color: #10438a;
+    align-items: center;
+    display: flex;
+    color: rgb(247, 252, 252);
+    position: relative; 
+    font-style: oblique;
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+Input[type='search']{
+    color: black;
+    box-shadow: 2px 2px 1px black;
+    height: 33px;
+    width: 250px;
+    padding-left: 8px;
+    font-size:medium;
+    border-radius: 5px;
+    margin-left: 90px;
+    background:rgb(159, 190, 221);
+}
+.searchbtn{
+    cursor: pointer;
+    background: transparent;
+    height: 33px;
+    margin-right: 28px;
+    margin-left: 2px;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+    
+} 
+.searchbtn:hover{
+    border-color: white;
+}
+.Leaderboard{
+    cursor: pointer;
+    font-style: oblique;
+    font-size: larger;
+    height: 33px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 46px;
+    color: white;
+    font-weight: 600;
+    background: transparent;
+    border-color:black;
+}
+.Leaderboard:hover{
+    transform:scale(1.08);
+    border-color: white;
+}
+.menubar{
+    font-size: larger;
+}
+.dropdown{
+    margin-right: 10px;
+    position: relative;
+}
+.dropdown-menu{
+    z-index:99;
+    position: absolute;
+    margin-left: 160px;
+    background-color:rgba(113, 126, 126, 0.662);
+    padding: .75rem;
+    border-radius: 13px;
+    box-shadow: 0 2px 5px 0 rgb(27, 18, 18); 
+    opacity: 0;
+    
+    
+    /* transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(3px); */
+}
+.Luna:hover{
+    cursor: pointer;
+    color: rgb(244, 241, 241);
+    background-color: rgb(38, 11, 11);
+}
+.Luna{
+    font-size: larger;
+    padding: 4px;
+    width: 85px;
+    border-radius: 7px; 
+    margin-bottom: 9px;
+}
+.uploadimg{
+    font-size: larger;
+    padding: 4px;
+    border-radius: 7px;
+    margin-bottom: 9px;
+}
+.uploadimg:hover{
+    cursor: pointer;
+    color: rgb(244, 241, 241);
+    background-color: rgb(38, 11, 11);
+}
+.logout{
+    
+    font-size: larger;
+    padding: 4px;
+    border-radius: 7px;
+    width: 90px;
+}
+
+.logout:hover{
+    cursor: pointer;
+    color: rgb(244, 241, 241);
+    background-color: rgb(38, 11, 11);
+}
+.dropdown > .link:focus +.dropdown-menu{
+    opacity: 1;
+    
+}
+.link{
+    background: none;
+    border-radius: 7px;
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 200px;
+    width: 40px;
+    position: relative;
+}
+.link:hover{
+    transform: scale(1.1);
+    color:white;
+    border-color: white;
+    
+}
+
