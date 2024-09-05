@@ -9,7 +9,7 @@ Memote is a React-based front-end application where users can create and share m
 
 - **Frontend**: React, CSS
 
-# Live Demo :  
+# Live Demo : https://memote.netlify.app/ 
 
 
 
